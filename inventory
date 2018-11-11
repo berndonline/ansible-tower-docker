@@ -6,17 +6,19 @@ localhost ansible_connection=local
 [all:vars]
 admin_password='password'
 
+nginx_disable_https='true'
+
 pg_host=''
 pg_port=''
 
 pg_database='awx'
 pg_username='awx'
-pg_password='password'
+pg_password='jbPxFuRsjhiVZJfBX7MmM4XBYCxNFCqXLq26nVMfK2wg2ispJruoNgaeRBio'
 
 rabbitmq_port=5672
 rabbitmq_vhost=tower
 rabbitmq_username=tower
-rabbitmq_password='password'
+rabbitmq_password='jbPxFuRsjhiVZJfBX7MmM4XBYCxNFCqXLq26nVMfK2wg2ispJruoNgaeRBio'
 rabbitmq_cookie=rabbitmqcookie
 
 # Needs to be true for fqdns and ip addresses
